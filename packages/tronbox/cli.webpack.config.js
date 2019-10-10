@@ -45,7 +45,7 @@ module.exports = {
         return callback(null, 'commonjs original-require');
       }
 
-      // We want to leave solc as an eternal dependency as well (for now)
+      // We want to leave solc as an external dependency as well (for now)
       if (/^solc$/.test(request)) {
         return callback(null, 'commonjs solc');
       }

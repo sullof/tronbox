@@ -7,7 +7,7 @@ var TaskError = require("./lib/errors/taskerror");
 var TruffleError = require("truffle-error");
 var version = require("./lib/version");
 var OS = require("os");
-var downloader = require("./downloader");
+var downloader = require("./lib/downloader");
 
 var command = new Command(require("./lib/commands"));
 
